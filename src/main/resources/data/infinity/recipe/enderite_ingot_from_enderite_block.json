@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "infinity:enderite_block"
+    }
+  ],
+  "result": {
+    "id": "infinity:enderite_ingot",
+    "count": 9
+  }
+}

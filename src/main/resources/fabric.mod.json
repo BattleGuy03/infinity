@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "infinity",
+  "version": "${version}",
+  "name": "Infinity",
+  "description": "Doing what Mojang won't",
+  "authors": [
+    "BG03_"
+  ],
+  "contact": {
+    "repo": "https://github.com/battleguy03/infinity"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "none",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.battleguy03.infinity.client.InfinityClient"
+    ],
+    "main": [
+      "com.battleguy03.infinity.Infinity"
+    ],
+    "client": [
+      "com.battleguy03.infinity.client.InfinityClient"
+    ],
+    "main": [
+      "com.battleguy03.infinity.Infinity"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
