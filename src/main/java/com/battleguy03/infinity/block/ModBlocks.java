@@ -18,7 +18,7 @@ public class ModBlocks {
     public static final Block VACILIUM = registerBlock("vacilium",
             new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
     public static final Block SPARSE_VACILIUM = registerBlock("sparse_vacilium",
-            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.PURPLE).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
 
 
     // register block magic
