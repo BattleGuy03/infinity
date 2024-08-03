@@ -1,6 +1,7 @@
 package com.battleguy03.infinity.block;
 
 import com.battleguy03.infinity.Infinity;
+import com.battleguy03.infinity.customscripts.DirectionalBlock;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -15,10 +16,10 @@ public class ModBlocks {
     // list of blocks to add
     public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
             new Block(AbstractBlock.Settings.copy(Blocks.DIAMOND_BLOCK)));
-    public static final Block VACILIUM = registerBlock("vacilium",
-            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
-    public static final Block SPARSE_VACILIUM = registerBlock("sparse_vacilium",
-            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
+    public static final Block VACILLIUM = registerBlock("vacillium",
+            new DirectionalBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
+    public static final Block SPARSE_VACILLIUM = registerBlock("sparse_vacillium",
+            new DirectionalBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
 
 
     // register block magic

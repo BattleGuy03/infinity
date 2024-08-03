@@ -27,8 +27,8 @@ public class ModItems {
         entries.add(ENDERITE_BLOCK);
     }
     private static void addItemsToNaturalItemTab(FabricItemGroupEntries entries) {
-        entries.add(VACILIUM);
-        entries.add(SPARSE_VACILIUM);
+        entries.add(VACILLIUM);
+        entries.add(SPARSE_VACILLIUM);
     }
 
     // item adding magic
