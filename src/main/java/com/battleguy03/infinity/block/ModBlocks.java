@@ -17,9 +17,9 @@ public class ModBlocks {
     public static final Block ENDERITE_BLOCK = registerBlock("enderite_block",
             new Block(AbstractBlock.Settings.copy(Blocks.DIAMOND_BLOCK)));
     public static final Block VACILLIUM = registerBlock("vacillium",
-            new DirectionalBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
+            new DirectionalBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BIT).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
     public static final Block SPARSE_VACILLIUM = registerBlock("sparse_vacillium",
-            new DirectionalBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BASEDRUM).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
+            new DirectionalBlock(AbstractBlock.Settings.create().mapColor(MapColor.PINK).instrument(NoteBlockInstrument.BIT).strength(3.0F,9.0F).sounds(BlockSoundGroup.NYLIUM).requiresTool()));
 
 
     // register block magic
